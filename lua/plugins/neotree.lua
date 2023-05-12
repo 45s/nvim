@@ -21,7 +21,4 @@ vim.fn.sign_define("DiagnosticSignHint",
                    {text = "", texthl = "DiagnosticSignHint"})
 
 -- https://github.com/nvim-neo-tree/neo-tree.nvim#quickstart
-require("neo-tree").setup({
-     enable_git_status = true,
-     enable_diagnostics = true,
-})
+require("neo-tree").setup({})
